@@ -1817,7 +1817,7 @@ body .panel-default {
 }
 /* Element property */
 .pg-property-widget {
-    width: 200px;
+    width: 10px;
     margin-left: 35px;
     margin-top: 35px;
     /* padding-bottom: 10px; */
@@ -1972,9 +1972,9 @@ input#pg_stroke_colorPicker {
 }
 /* Upload*/
 .pg_upload_image {
-    border: 1px dashed var(--pixaguru-border-color);
-    padding: 80px;
-    background-image: url(../images/upload-image.svg);
+    border: 0.2px dashed var(--pixaguru-border-color);
+    padding: 40px;
+    background-image: url(../images/upload-image.png);
     background-position: center center;
     background-repeat: no-repeat;    
     position: relative;
@@ -3360,7 +3360,7 @@ body .colorpicker-saturation {
     box-shadow: none;
 }
 .pg-property-widget.edp_bg_delete {
-    padding: 10px;
+    padding: 5px;
     width: fit-content;
     display: inline-block;
     background: #ffd3d3;
@@ -4377,7 +4377,7 @@ form#pg_google_analytics_header_scripte {
         font-size: 14px;
     }
     .pg-property-widget {
-        padding: 15px;
+        padding: 5px;
     }
     .pg-sidebar-input textarea {
         padding: 10px;
@@ -4657,8 +4657,8 @@ form#pg_google_analytics_header_scripte {
         max-width: calc(100% - 20px);
     }
     .pg-property-widget {
-        padding: 10px;
-        max-width: calc(100% - 20px);
+        padding: 5px;
+        /* max-width: calc(100% - 20px); */
     }
 }
 
